@@ -20,7 +20,7 @@ class DirectorsController < ApplicationController
     # Save
 
     # Redirect the user back to the /movies URL
-  end
+  end 
 
   def index
     matching_directors = Director.all
